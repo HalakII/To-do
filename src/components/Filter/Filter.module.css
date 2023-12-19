@@ -1,0 +1,23 @@
+/* Styling for the filter label */
+.FilterLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.FilterLabel input {
+  width: 100%;
+  max-width: 200px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* Optional: Add some additional styling for the label text */
+.FilterLabel {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
